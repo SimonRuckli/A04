@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Werkzeug Shop</title>
+</head>
+
+<body>
+    <h1>Werkzeug Shop</h1>
+    
+    <div>
+        <form>
+            <label>Wie viele Schrauben?:</label>
+            <input type="text" id="screw" />
+            <label id="error_screw"></label>
+            <br/>
+            <br/>       
+        
+            <label>Wie viele Muttern?:</label>
+            <input type="text" id="screwnut" />
+            <label id="error_screwnut"></label>
+            <br/>
+            <br/>
+        
+            <label>Wie viele Unterlagenscheiben?:</label>
+            <input type="text" id="grommet" />
+            <label id="error_grommet"></label>
+            <br/>
+            <br/>
+    
+            <input type="button" value="Absenden" id="btn_send" />
+            <input type="reset" value="Werte löschen"/>
+        </form>
+    </div>
+
+    <p id="result"></p>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
